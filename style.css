@@ -1092,6 +1092,7 @@ header {
     top: 0px;
     padding-top: 22px;
     box-sizing: content-box;
+    display: none;
   }
   #cards-section {
     display: block;
@@ -1130,6 +1131,7 @@ header {
   }
   #div-sec2 {
     margin: 0px;
+    width: 350px;
   }
   .para {
     margin-left: 0px;
@@ -1156,6 +1158,7 @@ header {
   }
   #left-heading2 {
     font-size: 26px;
+    width: 100%;
   }
   #left-heading3 {
     font-size: 26px;
@@ -1264,15 +1267,23 @@ header {
   #logo {
     left: 0px;
     top: 0px;
-    padding-bottom: 100px;
     z-index: 10;
+    width: 184px;
+    height: 54px;
+  }
+  #logo a {
+    padding: 0px;
+    margin: 0px;
   }
   #logo-img {
-    width: 300px;
+    width: 66%;
     top: 0px;
+    padding: 15px;
+    margin-left: 24px;
   }
   header {
     margin: 0px;
+    width: auto;
   }
   body {
     margin: 0px;
@@ -1285,5 +1296,12 @@ header {
   }
   .space {
     margin-bottom: 20px;
+  }
+  #big-letters {
+    width: auto;
+  }
+  .para {
+    margin-right: 10px;
+    box-sizing: border-box;
   }
 }
